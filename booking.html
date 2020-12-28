@@ -1,0 +1,93 @@
+<html>
+<head>
+<script src="booking.js" type="text/javascript"></script>
+<link href="booking.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<h1>Sea Side Park Hotel</h1>
+<h2>Hotel Room Booking</h2>
+<form onsubmit="validate()" action="booking.php" method="POST">
+<table>
+<tr>
+<td>Name</td>
+<td><input type="text" name="uname" id="uname"></td>
+</tr>
+<tr>
+<td>Address</td>
+<td><input type="text" name="uaddress" id="uaddress"></td>
+</tr>
+<tr>
+<td>Email</td>
+<td><input type="text" name="email" id="email"></td>
+</tr>
+<tr>
+<td>Street</td>
+<td><input type="text" name="street" id="street"></td>
+</tr>
+<tr>
+<td>Country</td>
+<td><input type="text" name="country" id="country"></td>
+</tr>
+<tr>
+<td>Telephone</td>
+<td><input type="text" name="tel" id="tel"></td>
+</tr>
+<tr>
+<td>Arrive</td>
+<td><input type="text" name="arrive" id="arrive"></td>
+<td>Depature</td>
+<td><input type="text" name="depature" id="depature"></td>
+</tr>
+<tr>
+<td>People</td>
+<td><select>
+<option>Select people</option>
+<option>1</option>
+<option>2</option>
+<option>more</option>
+</select>
+</td>
+</tr>
+<tr>
+<td>Room</td>
+
+<td><select>
+<option>select room type</option>
+<option>A/C</option>
+<option>Non A/C</option>
+
+</select>
+</td>
+</tr>
+<tr>
+<td>Bedding</td>
+<td><select>
+<option>select bed type</option>
+<option>single</option>
+<option>double</option>
+
+</select>
+</td>
+</tr>
+<tr>
+<td>No.Of rooms</td>
+<td><select>
+<option>no.of rooms</option>
+<option>1</option>
+<option>2</option>
+<option>more</option>
+</select>
+</td>
+</tr>
+<tr>
+<td>Comments</td>
+<td><input type="text" name="com" id="com"></td>
+</tr>
+<tr>
+<td><input type="submit" value="confirm"</td>
+</tr>
+</table>
+</form>
+</body>
+</html>
+
